@@ -1,0 +1,6 @@
+{
+    "category": "plugins",
+    "display": "Create a Folder",
+    "type": "server_side",
+    "use_packages": true
+}

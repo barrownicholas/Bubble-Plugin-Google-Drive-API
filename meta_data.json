@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "social network",
+        "2": "technical"
+    },
+    "description": "This plugin offers some basic Google Drive API connections for your application. This plugin is not stand-alone and requires use with a service account (a free service account plugin is available here: https://bubble.io/plugin/google-service-account-1605833704975x195806677045870600). ",
+    "image": "//s3.amazonaws.com/appforest_uf/f1627154471722x282174168048021630/googlelogo.jpeg",
+    "license": "open_source",
+    "name": "Google Drive API",
+    "plugin_instructions": "Prerequisite\nA.) You must have a service account ready and enabled. See this plugin: https://bubble.io/plugin/google-service-account-1605833704975x195806677045870600. You may be able to use a token from OAuth, but this plugin was only tested with service accounts. "
+}

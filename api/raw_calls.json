@@ -1,0 +1,95 @@
+{
+    "calls": {
+        "AAF": {
+            "0": "A",
+            "1": "A",
+            "2": "E",
+            "body": "{\n    \"name\":\"<Folder Name>\",\n    \"mimeType\":\"application/vnd.google-apps.folder\",\n    \"parents\":[\n        \"<Folder Parent>\"\n        ]\n}",
+            "body_params": {
+                "AAd": {
+                    "doc": "Enter the name of your folder. Cannot be left blank.",
+                    "key": "Folder Name",
+                    "private": true,
+                    "value": "New Folder"
+                },
+                "AAq": {
+                    "doc": "If you want to specify a specific folder, enter that folder's ID, or leave the default (\"root\") folder. If you want to find a folder's ID manually, navigate to that folder in a web-browser; the folder ID is as follows: \"https://drive.google.com/drive/folders/{{FOLDER_ID}}\". Do not use \"\" in your input, unless you want the \"\" to appear. ",
+                    "key": "Folder Parent",
+                    "private": true,
+                    "value": "root"
+                }
+            },
+            "headers": {
+                "AAS": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Create a Folder",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1627149818654x508797293775028200.plugin_api.AAF",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAF\":{\"caption\":\"Create a Folder\",\"fields\":{\"_p_kind\":{\"ret_value\":\"text\",\"caption\":\"kind\",\"sample_value\":\"drive#file\",\"path\":[\"kind\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"1jcEyX5o77BoWlXaKfFr7rSP8Ci3Ed6xc\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"New Folder\",\"path\":[\"name\"]},\"_p_mimeType\":{\"ret_value\":\"text\",\"caption\":\"mimeType\",\"sample_value\":\"application/vnd.google-apps.folder\",\"path\":[\"mimeType\"]}}}}",
+            "url": "https://www.googleapis.com/drive/v3/files?access_token=[access_token]",
+            "url_params": {
+                "AAR": {
+                    "doc": "An access token. Need to generate one? Get this free plugin: https://bubble.io/plugin/google-service-account-1605833704975x195806677045870600",
+                    "key": "access_token",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAs": {
+            "0": "A",
+            "1": "A",
+            "2": "r",
+            "body": "{\n    \"name\":\"<Folder Name>\",\n    \"mimeType\":\"application/vnd.google-apps.folder\",\n    \"parents\":[\n        \"<Folder Parent>\"\n        ]\n}",
+            "body_params": {
+                "AAd": {
+                    "doc": "Enter the name of your folder. Cannot be left blank.",
+                    "key": "Folder Name",
+                    "private": true,
+                    "value": "New Folder"
+                },
+                "AAq": {
+                    "doc": "If you want to specify a specific folder, enter that folder's ID, or leave the default (\"root\") folder. If you want to find a folder's ID manually, navigate to that folder in a web-browser; the folder ID is as follows: \"https://drive.google.com/drive/folders/{{FOLDER_ID}}\". Do not use \"\" in your input, unless you want the \"\" to appear. ",
+                    "key": "Folder Parent",
+                    "private": true,
+                    "value": "root"
+                }
+            },
+            "headers": {
+                "AAS": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Create a Folder (copy)",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1627149818654x508797293775028200.plugin_api.AAr",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAr\":{\"caption\":\"Create a Folder\",\"fields\":{\"_p_kind\":{\"ret_value\":\"text\",\"caption\":\"kind\",\"sample_value\":\"drive#file\",\"path\":[\"kind\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"1jcEyX5o77BoWlXaKfFr7rSP8Ci3Ed6xc\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"New Folder\",\"path\":[\"name\"]},\"_p_mimeType\":{\"ret_value\":\"text\",\"caption\":\"mimeType\",\"sample_value\":\"application/vnd.google-apps.folder\",\"path\":[\"mimeType\"]}}}}",
+            "url": "https://www.googleapis.com/drive/v3/files?access_token=[access_token]",
+            "url_params": {
+                "AAR": {
+                    "doc": "An access token. Need to generate one? Get this free plugin: https://bubble.io/plugin/google-service-account-1605833704975x195806677045870600",
+                    "key": "access_token",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "Google Drive API"
+}
